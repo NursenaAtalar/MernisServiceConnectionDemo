@@ -10,7 +10,7 @@ namespace MernisServiceConnectionDemo
         static void Main(string[] args)
         {
             Business.Abstract.BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-            customerManager.Save(new Customer { DateOfBirth = 1997, FirstName = "Nursena", LastName = "Atalar", NationalityId = 48016031700 });
+            customerManager.Save(new Customer { DateOfBirth = 1997, FirstName = "Nursena", LastName = "Atalar", NationalityId = 00000000 });
             Console.ReadLine();
         }
     }
